@@ -1,1 +1,4 @@
-body{background:#F8F5EE;color:#5C4A3D;font-family:Georgia}nav{padding:20px;color:#5F7154}section{padding:40px}a{background:#5F7154;color:white;padding:10px 18px;border-radius:20px;text-decoration:none}
+body{margin:0;font-family:Arial,sans-serif;background:#F7F3EA;color:#4d4d44}
+.hero{padding:80px 24px;text-align:center}.tag{font-style:italic;color:#6F725F}
+.btn{display:inline-block;padding:12px 24px;background:#6F725F;color:#fff;text-decoration:none;border-radius:30px}
+section{max-width:900px;margin:auto;padding:40px 24px}.card{display:flex;gap:20px;align-items:center}.cover{width:140px;height:200px;border:2px dashed #8C8C77;display:flex;align-items:center;justify-content:center}

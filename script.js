@@ -1,1 +1,1 @@
-console.log("pkg2")
+console.log('Welcome to LAMI');
