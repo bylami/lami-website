@@ -38,3 +38,10 @@ section{max-width:900px;margin:auto;padding:40px 24px}
     font-family:Arial,sans-serif;
     font-size:16px;
 }
+.story-cover{
+    width:100%;
+    max-width:1080px;
+    height:auto;
+    display:block;
+    margin:0 auto 40px;
+}
