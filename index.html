@@ -1,5 +1,16 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css"><title>LAMI</title></head>
+<script>
+function toggleShop() {
+    const shop = document.getElementById("shopItems");
+
+    if (shop.style.display === "none") {
+        shop.style.display = "block";
+    } else {
+        shop.style.display = "none";
+    }
+}
+</script>
 <body>
 <header class="hero">
 <h1>LAMI</h1>
@@ -19,6 +30,20 @@
   </div>
 </div>
 </section>
-<section><h2>Shop</h2><p>Books • Art Prints • Postcards • Stickers (Coming Soon)</p></section>
+<section>
+
+<h2 onclick="toggleShop()" style="cursor:pointer;">Shop</h2>
+
+<div id="shopItems" style="display:none; margin-top:20px;">
+
+<p>Books</p>
+<p>Art Prints</p>
+<p>Postcards</p>
+<p>Stickers</p>
+<p>Coming Soon</p>
+
+</div>
+
+</section>
 <footer>© LAMI</footer>
 <script src="script.js"></script></body></html>
