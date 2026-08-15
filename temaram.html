@@ -43,7 +43,10 @@
     color: #d8d4cc;
     cursor: pointer;
 }
-
+.episode {
+    display: block;
+    text-decoration: none;
+}
 .lock {
     float: right;
     font-size: 20px;
@@ -84,10 +87,10 @@
 
 <div id="freeEpisodes" class="episodes">
 
-<div class="episode" onclick="openEpisode(1)">
+<a href="episode1.html" class="episode">
 Episode 1
 <span class="free">FREE</span>
-</div>
+</a>
 
 <div class="episode" onclick="openEpisode(2)">
 Episode 2
